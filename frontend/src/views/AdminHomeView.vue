@@ -1,0 +1,18 @@
+<template>
+  <div>
+    <div class="page-intro"><div><h2>{{ auth.isGlobalAdmin ? '全局管理概览' : `Site ${auth.user?.managed_site_id} 站点概览` }}</h2><p>{{ auth.isGlobalAdmin ? '跨站点查看高校图书网络的实时数据规模' : '当前账号的数据访问和管理范围已锁定为本站点' }}</p></div><el-select v-if="auth.isGlobalAdmin" v-model="selectedSite" style="width:150px" @change="load"><el-option label="全部站点" :value="0"/><el-option v-for="id in [1,2,3]" :key="id" :label="`Site ${id}`" :value="id"/></el-select></div>
+    <section class="scope-panel panel"><div><span>{{ auth.isGlobalAdmin ? 'GLOBAL SCOPE' : 'RESTRICTED SCOPE' }}</span><strong>{{ auth.isGlobalAdmin && !selectedSite ? 'Site 1 + Site 2 + Site 3' : `Site ${selectedSite || auth.user?.managed_site_id}` }}</strong></div><p>{{ auth.isGlobalAdmin ? '可查看并维护全部站点的图书、读者与借阅信息。' : '后端会强制拒绝对其他站点的读取或修改请求。' }}</p></section>
+    <div class="metrics-grid"><article v-for="item in metrics" :key="item.key" class="metric panel"><span>{{ item.label }}</span><strong>{{ loading ? '—' : overview[item.key] ?? 0 }}</strong><small>{{ item.note }}</small></article></div>
+    <div class="quick-grid"><RouterLink to="/admin/resources" class="panel"><b>资源管理</b><span>读者、馆藏副本和借阅记录</span><em>进入管理 →</em></RouterLink><RouterLink to="/admin/map" class="panel"><b>空间信息</b><span>站点范围、校区边界和图书馆</span><em>打开地图 →</em></RouterLink><RouterLink v-if="auth.isGlobalAdmin" to="/admin/query" class="panel"><b>分布式 SQL</b><span>查看查询分解、路由与合并过程</span><em>打开工作台 →</em></RouterLink></div>
+    <el-alert v-if="error" :title="error" type="error" :closable="false" class="section-gap"/>
+  </div>
+</template>
+<script setup lang="ts">
+import { onMounted,ref } from 'vue';import { RouterLink } from 'vue-router';import { getAdminOverview,apiErrorMessage } from '@/api/client';import { useAuthStore } from '@/stores/auth'
+const auth=useAuthStore(),selectedSite=ref(0),loading=ref(false),error=ref(''),overview=ref<Record<string,number|number[]>>({})
+const metrics=[{key:'campuses',label:'校区',note:'协调节点空间数据'},{key:'libraries',label:'图书馆',note:'分节点水平分片'},{key:'readers',label:'读者',note:'本站点归属读者'},{key:'copies',label:'馆藏副本',note:'可流通实体馆藏'},{key:'borrow_records',label:'借阅记录',note:'本地与跨校借阅'}]
+async function load(){loading.value=true;error.value='';try{overview.value=await getAdminOverview(selectedSite.value||undefined)}catch(e){error.value=apiErrorMessage(e)}finally{loading.value=false}}onMounted(load)
+</script>
+<style scoped>
+.scope-panel{padding:20px 22px;display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;background:linear-gradient(110deg,rgba(41,216,199,.10),rgba(13,27,44,.96) 55%)}.scope-panel div{display:flex;flex-direction:column}.scope-panel span{color:var(--cyan);font:9px 'DM Mono';letter-spacing:.13em}.scope-panel strong{font-size:18px;margin-top:5px}.scope-panel p{color:var(--muted);font-size:11px}.metrics-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.metric{padding:19px}.metric span{color:#7890a8;font-size:10px}.metric strong{display:block;font:500 28px 'DM Mono';margin:9px 0 6px;color:#eaf6ff}.metric small{color:#526b82;font-size:8px}.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.quick-grid a{padding:21px;display:flex;flex-direction:column;transition:.18s}.quick-grid a:hover{border-color:rgba(41,216,199,.35);transform:translateY(-2px)}.quick-grid b{font-size:14px}.quick-grid span{font-size:10px;color:var(--muted);margin:7px 0 18px}.quick-grid em{font-style:normal;color:var(--cyan);font-size:10px}@media(max-width:1000px){.metrics-grid{grid-template-columns:repeat(2,1fr)}.quick-grid{grid-template-columns:1fr}.scope-panel{align-items:flex-start;gap:12px;flex-direction:column}}
+</style>

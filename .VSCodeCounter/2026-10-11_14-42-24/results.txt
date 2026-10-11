@@ -1,0 +1,159 @@
+Date : 2026-10-11 14:42:24
+Directory : e:\CodeProjects\database_homework
+Total : 87 files,  9860 codes, 303 comments, 1223 blanks, all 11386 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          4 |      2,707 |          0 |          4 |      2,711 |
+| Python             |         24 |      2,288 |        270 |        377 |      2,935 |
+| Markdown           |          8 |      1,774 |          0 |        506 |      2,280 |
+| MS SQL             |         13 |      1,414 |         31 |        132 |      1,577 |
+| Vue                |         19 |        946 |          0 |         84 |      1,030 |
+| TypeScript         |          8 |        366 |          1 |         67 |        434 |
+| PostCSS            |          1 |        135 |          0 |         10 |        145 |
+| YAML               |          1 |        107 |          0 |          7 |        114 |
+| PowerShell         |          6 |         94 |          0 |         32 |        126 |
+| HTML               |          1 |         14 |          0 |          1 |         15 |
+| pip requirements   |          1 |          8 |          1 |          2 |         11 |
+| JSON with Comments |          1 |          7 |          0 |          1 |          8 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         87 |      9,860 |        303 |      1,223 |     11,386 |
+| . (Files)                                                                           |          3 |      1,486 |          0 |        404 |      1,890 |
+| backend                                                                             |         26 |      2,364 |        271 |        405 |      3,040 |
+| backend (Files)                                                                     |          4 |        141 |          2 |         41 |        184 |
+| backend\common                                                                      |          5 |        263 |          1 |         65 |        329 |
+| backend\coordinator                                                                 |         11 |      1,577 |         86 |        234 |      1,897 |
+| backend\site_service                                                                |          3 |        266 |        182 |         29 |        477 |
+| backend\tests                                                                       |          3 |        117 |          0 |         36 |        153 |
+| database                                                                            |         14 |      1,454 |         31 |        147 |      1,632 |
+| database (Files)                                                                    |          1 |         40 |          0 |         15 |         55 |
+| database\common                                                                     |          1 |          2 |          2 |          2 |          6 |
+| database\coordinator                                                                |          3 |        449 |          9 |         36 |        494 |
+| database\coordinator (Files)                                                        |          2 |        208 |          3 |         28 |        239 |
+| database\coordinator\data                                                           |          1 |        241 |          6 |          8 |        255 |
+| database\site1                                                                      |          3 |        320 |          6 |         31 |        357 |
+| database\site1 (Files)                                                              |          2 |        200 |          3 |         26 |        229 |
+| database\site1\data                                                                 |          1 |        120 |          3 |          5 |        128 |
+| database\site2                                                                      |          3 |        320 |          6 |         32 |        358 |
+| database\site2 (Files)                                                              |          2 |        200 |          3 |         26 |        229 |
+| database\site2\data                                                                 |          1 |        120 |          3 |          6 |        129 |
+| database\site3                                                                      |          3 |        323 |          8 |         31 |        362 |
+| database\site3 (Files)                                                              |          2 |        200 |          3 |         26 |        229 |
+| database\site3\data                                                                 |          1 |        123 |          5 |          5 |        133 |
+| docs                                                                                |          3 |        267 |          0 |         58 |        325 |
+| frontend                                                                            |         35 |      4,195 |          1 |        177 |      4,373 |
+| frontend (Files)                                                                    |          8 |      2,774 |          0 |         18 |      2,792 |
+| frontend\src                                                                        |         27 |      1,421 |          1 |        159 |      1,581 |
+| frontend\src (Files)                                                                |          4 |        169 |          1 |         18 |        188 |
+| frontend\src\api                                                                    |          1 |        117 |          0 |         28 |        145 |
+| frontend\src\components                                                             |          4 |        160 |          0 |         20 |        180 |
+| frontend\src\layouts                                                                |          2 |         43 |          0 |          4 |         47 |
+| frontend\src\router                                                                 |          1 |         54 |          0 |          6 |         60 |
+| frontend\src\stores                                                                 |          2 |         81 |          0 |         14 |         95 |
+| frontend\src\types                                                                  |          1 |         60 |          0 |         11 |         71 |
+| frontend\src\views                                                                  |         12 |        737 |          0 |         58 |        795 |
+| frontend\src\views (Files)                                                          |          9 |        686 |          0 |         55 |        741 |
+| frontend\src\views\portal                                                           |          3 |         51 |          0 |          3 |         54 |
+| scripts                                                                             |          6 |         94 |          0 |         32 |        126 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                            | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\CodeProjects\database_homework\backend\README.md                                 | Markdown           |         68 |          0 |         26 |         94 |
+| e:\CodeProjects\database_homework\backend\__init__.py                               | Python             |          0 |          1 |          1 |          2 |
+| e:\CodeProjects\database_homework\backend\common\__init__.py                        | Python             |          0 |          1 |          1 |          2 |
+| e:\CodeProjects\database_homework\backend\common\config.py                          | Python             |         51 |          0 |         11 |         62 |
+| e:\CodeProjects\database_homework\backend\common\event_bus.py                       | Python             |         46 |          0 |         10 |         56 |
+| e:\CodeProjects\database_homework\backend\common\models.py                          | Python             |        143 |          0 |         37 |        180 |
+| e:\CodeProjects\database_homework\backend\common\serialization.py                   | Python             |         23 |          0 |          6 |         29 |
+| e:\CodeProjects\database_homework\backend\coordinator\__init__.py                   | Python             |          0 |          1 |          1 |          2 |
+| e:\CodeProjects\database_homework\backend\coordinator\admin_api.py                  | Python             |        286 |          1 |         52 |        339 |
+| e:\CodeProjects\database_homework\backend\coordinator\auth.py                       | Python             |         91 |          0 |         22 |        113 |
+| e:\CodeProjects\database_homework\backend\coordinator\logical_catalog.py            | Python             |        131 |          0 |         10 |        141 |
+| e:\CodeProjects\database_homework\backend\coordinator\main.py                       | Python             |        150 |          0 |         26 |        176 |
+| e:\CodeProjects\database_homework\backend\coordinator\public_api.py                 | Python             |         97 |         84 |          7 |        188 |
+| e:\CodeProjects\database_homework\backend\coordinator\query_engine.py               | Python             |        176 |          0 |         14 |        190 |
+| e:\CodeProjects\database_homework\backend\coordinator\router.py                     | Python             |         54 |          0 |         11 |         65 |
+| e:\CodeProjects\database_homework\backend\coordinator\site_client.py                | Python             |        132 |          0 |         17 |        149 |
+| e:\CodeProjects\database_homework\backend\coordinator\sql_parser.py                 | Python             |        344 |          0 |         54 |        398 |
+| e:\CodeProjects\database_homework\backend\coordinator\write_engine.py               | Python             |        116 |          0 |         20 |        136 |
+| e:\CodeProjects\database_homework\backend\requirements.txt                          | pip requirements   |          8 |          1 |          2 |         11 |
+| e:\CodeProjects\database_homework\backend\run_all.py                                | Python             |         65 |          0 |         12 |         77 |
+| e:\CodeProjects\database_homework\backend\site_service\__init__.py                  | Python             |          0 |          1 |          1 |          2 |
+| e:\CodeProjects\database_homework\backend\site_service\main.py                      | Python             |        244 |        181 |         21 |        446 |
+| e:\CodeProjects\database_homework\backend\site_service\security.py                  | Python             |         22 |          0 |          7 |         29 |
+| e:\CodeProjects\database_homework\backend\tests\test_router.py                      | Python             |         19 |          0 |          6 |         25 |
+| e:\CodeProjects\database_homework\backend\tests\test_site_security.py               | Python             |         20 |          0 |          6 |         26 |
+| e:\CodeProjects\database_homework\backend\tests\test_sql_parser.py                  | Python             |         78 |          0 |         24 |        102 |
+| e:\CodeProjects\database_homework\database\SEED_DATA.md                             | Markdown           |         40 |          0 |         15 |         55 |
+| e:\CodeProjects\database_homework\database\common\001_extensions.sql                | MS SQL             |          2 |          2 |          2 |          6 |
+| e:\CodeProjects\database_homework\database\coordinator\010_schema.sql               | MS SQL             |        204 |          3 |         24 |        231 |
+| e:\CodeProjects\database_homework\database\coordinator\020_seed.sql                 | MS SQL             |          4 |          0 |          4 |          8 |
+| e:\CodeProjects\database_homework\database\coordinator\data\coordinator_data.sql    | MS SQL             |        241 |          6 |          8 |        255 |
+| e:\CodeProjects\database_homework\database\site1\010_schema.sql                     | MS SQL             |        196 |          3 |         22 |        221 |
+| e:\CodeProjects\database_homework\database\site1\020_seed.sql                       | MS SQL             |          4 |          0 |          4 |          8 |
+| e:\CodeProjects\database_homework\database\site1\data\site1_data.sql                | MS SQL             |        120 |          3 |          5 |        128 |
+| e:\CodeProjects\database_homework\database\site2\010_schema.sql                     | MS SQL             |        196 |          3 |         22 |        221 |
+| e:\CodeProjects\database_homework\database\site2\020_seed.sql                       | MS SQL             |          4 |          0 |          4 |          8 |
+| e:\CodeProjects\database_homework\database\site2\data\site2_data.sql                | MS SQL             |        120 |          3 |          6 |        129 |
+| e:\CodeProjects\database_homework\database\site3\010_schema.sql                     | MS SQL             |        196 |          3 |         22 |        221 |
+| e:\CodeProjects\database_homework\database\site3\020_seed.sql                       | MS SQL             |          4 |          0 |          4 |          8 |
+| e:\CodeProjects\database_homework\database\site3\data\site3_data.sql                | MS SQL             |        123 |          5 |          5 |        133 |
+| e:\CodeProjects\database_homework\docker-compose.yml                                | YAML               |        107 |          0 |          7 |        114 |
+| e:\CodeProjects\database_homework\docs\演示账号.md                                      | Markdown           |         19 |          0 |          5 |         24 |
+| e:\CodeProjects\database_homework\docs\用户角色与权限.md                                   | Markdown           |         20 |          0 |          6 |         26 |
+| e:\CodeProjects\database_homework\docs\用户逻辑表结构.md                                   | Markdown           |        228 |          0 |         47 |        275 |
+| e:\CodeProjects\database_homework\frontend\README.md                                | Markdown           |         20 |          0 |         10 |         30 |
+| e:\CodeProjects\database_homework\frontend\index.html                               | HTML               |         14 |          0 |          1 |         15 |
+| e:\CodeProjects\database_homework\frontend\package-lock.json                        | JSON               |      2,645 |          0 |          1 |      2,646 |
+| e:\CodeProjects\database_homework\frontend\package.json                             | JSON               |         33 |          0 |          1 |         34 |
+| e:\CodeProjects\database_homework\frontend\src\App.vue                              | Vue                |          6 |          0 |          2 |          8 |
+| e:\CodeProjects\database_homework\frontend\src\api\client.ts                        | TypeScript         |        117 |          0 |         28 |        145 |
+| e:\CodeProjects\database_homework\frontend\src\components\NodeCard.vue              | Vue                |         27 |          0 |          3 |         30 |
+| e:\CodeProjects\database_homework\frontend\src\components\QueryPlan.vue             | Vue                |         53 |          0 |          5 |         58 |
+| e:\CodeProjects\database_homework\frontend\src\components\ResultTable.vue           | Vue                |         23 |          0 |          5 |         28 |
+| e:\CodeProjects\database_homework\frontend\src\components\SqlEditor.vue             | Vue                |         57 |          0 |          7 |         64 |
+| e:\CodeProjects\database_homework\frontend\src\env.d.ts                             | TypeScript         |         14 |          1 |          4 |         19 |
+| e:\CodeProjects\database_homework\frontend\src\layouts\AppLayout.vue                | Vue                |         22 |          0 |          1 |         23 |
+| e:\CodeProjects\database_homework\frontend\src\layouts\PortalLayout.vue             | Vue                |         21 |          0 |          3 |         24 |
+| e:\CodeProjects\database_homework\frontend\src\main.ts                              | TypeScript         |         14 |          0 |          2 |         16 |
+| e:\CodeProjects\database_homework\frontend\src\router\index.ts                      | TypeScript         |         54 |          0 |          6 |         60 |
+| e:\CodeProjects\database_homework\frontend\src\stores\auth.ts                       | TypeScript         |         36 |          0 |          9 |         45 |
+| e:\CodeProjects\database_homework\frontend\src\stores\query.ts                      | TypeScript         |         45 |          0 |          5 |         50 |
+| e:\CodeProjects\database_homework\frontend\src\styles.css                           | PostCSS            |        135 |          0 |         10 |        145 |
+| e:\CodeProjects\database_homework\frontend\src\types\index.ts                       | TypeScript         |         60 |          0 |         11 |         71 |
+| e:\CodeProjects\database_homework\frontend\src\views\AdminHomeView.vue              | Vue                |         18 |          0 |          1 |         19 |
+| e:\CodeProjects\database_homework\frontend\src\views\AdminResourcesView.vue         | Vue                |         50 |          0 |          2 |         52 |
+| e:\CodeProjects\database_homework\frontend\src\views\BorrowView.vue                 | Vue                |         48 |          0 |          3 |         51 |
+| e:\CodeProjects\database_homework\frontend\src\views\DashboardView.vue              | Vue                |        124 |          0 |         13 |        137 |
+| e:\CodeProjects\database_homework\frontend\src\views\LoginView.vue                  | Vue                |         51 |          0 |          3 |         54 |
+| e:\CodeProjects\database_homework\frontend\src\views\MapView.vue                    | Vue                |        182 |          0 |          9 |        191 |
+| e:\CodeProjects\database_homework\frontend\src\views\MonitorView.vue                | Vue                |         66 |          0 |          8 |         74 |
+| e:\CodeProjects\database_homework\frontend\src\views\QueryView.vue                  | Vue                |        115 |          0 |         13 |        128 |
+| e:\CodeProjects\database_homework\frontend\src\views\SchemaView.vue                 | Vue                |         32 |          0 |          3 |         35 |
+| e:\CodeProjects\database_homework\frontend\src\views\portal\PortalBorrowingView.vue | Vue                |          9 |          0 |          1 |         10 |
+| e:\CodeProjects\database_homework\frontend\src\views\portal\PortalHomeView.vue      | Vue                |         29 |          0 |          1 |         30 |
+| e:\CodeProjects\database_homework\frontend\src\views\portal\PortalMapView.vue       | Vue                |         13 |          0 |          1 |         14 |
+| e:\CodeProjects\database_homework\frontend\tsconfig.app.json                        | JSON               |         20 |          0 |          1 |         21 |
+| e:\CodeProjects\database_homework\frontend\tsconfig.json                            | JSON with Comments |          7 |          0 |          1 |          8 |
+| e:\CodeProjects\database_homework\frontend\tsconfig.node.json                       | JSON               |          9 |          0 |          1 |         10 |
+| e:\CodeProjects\database_homework\frontend\vite.config.ts                           | TypeScript         |         26 |          0 |          2 |         28 |
+| e:\CodeProjects\database_homework\scripts\import-data.ps1                           | PowerShell         |         26 |          0 |          7 |         33 |
+| e:\CodeProjects\database_homework\scripts\setup-backend.ps1                         | PowerShell         |         15 |          0 |          6 |         21 |
+| e:\CodeProjects\database_homework\scripts\start-backend.ps1                         | PowerShell         |          7 |          0 |          4 |         11 |
+| e:\CodeProjects\database_homework\scripts\start-frontend.ps1                        | PowerShell         |          9 |          0 |          4 |         13 |
+| e:\CodeProjects\database_homework\scripts\test-backend.ps1                          | PowerShell         |          7 |          0 |          4 |         11 |
+| e:\CodeProjects\database_homework\scripts\verify-data.ps1                           | PowerShell         |         30 |          0 |          7 |         37 |
+| e:\CodeProjects\database_homework\数据库结构设计-旧版备份.md                                   | Markdown           |        707 |          0 |        201 |        908 |
+| e:\CodeProjects\database_homework\数据库结构设计.md                                        | Markdown           |        672 |          0 |        196 |        868 |
+| Total                                                                               |                    |      9,860 |        303 |      1,223 |     11,386 |
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

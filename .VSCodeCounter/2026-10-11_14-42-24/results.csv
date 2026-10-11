@@ -1,0 +1,89 @@
+"filename", "language", "Markdown", "PowerShell", "YAML", "JSON with Comments", "TypeScript", "JSON", "Python", "MS SQL", "HTML", "Vue", "pip requirements", "PostCSS", "comment", "blank", "total"
+"e:\CodeProjects\database_homework\backend\README.md", "Markdown", 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 94
+"e:\CodeProjects\database_homework\backend\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"e:\CodeProjects\database_homework\backend\common\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"e:\CodeProjects\database_homework\backend\common\config.py", "Python", 0, 0, 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 0, 11, 62
+"e:\CodeProjects\database_homework\backend\common\event_bus.py", "Python", 0, 0, 0, 0, 0, 0, 46, 0, 0, 0, 0, 0, 0, 10, 56
+"e:\CodeProjects\database_homework\backend\common\models.py", "Python", 0, 0, 0, 0, 0, 0, 143, 0, 0, 0, 0, 0, 0, 37, 180
+"e:\CodeProjects\database_homework\backend\common\serialization.py", "Python", 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 6, 29
+"e:\CodeProjects\database_homework\backend\coordinator\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"e:\CodeProjects\database_homework\backend\coordinator\admin_api.py", "Python", 0, 0, 0, 0, 0, 0, 286, 0, 0, 0, 0, 0, 1, 52, 339
+"e:\CodeProjects\database_homework\backend\coordinator\auth.py", "Python", 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 0, 0, 22, 113
+"e:\CodeProjects\database_homework\backend\coordinator\logical_catalog.py", "Python", 0, 0, 0, 0, 0, 0, 131, 0, 0, 0, 0, 0, 0, 10, 141
+"e:\CodeProjects\database_homework\backend\coordinator\main.py", "Python", 0, 0, 0, 0, 0, 0, 150, 0, 0, 0, 0, 0, 0, 26, 176
+"e:\CodeProjects\database_homework\backend\coordinator\public_api.py", "Python", 0, 0, 0, 0, 0, 0, 97, 0, 0, 0, 0, 0, 84, 7, 188
+"e:\CodeProjects\database_homework\backend\coordinator\query_engine.py", "Python", 0, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 0, 0, 14, 190
+"e:\CodeProjects\database_homework\backend\coordinator\router.py", "Python", 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 0, 0, 11, 65
+"e:\CodeProjects\database_homework\backend\coordinator\site_client.py", "Python", 0, 0, 0, 0, 0, 0, 132, 0, 0, 0, 0, 0, 0, 17, 149
+"e:\CodeProjects\database_homework\backend\coordinator\sql_parser.py", "Python", 0, 0, 0, 0, 0, 0, 344, 0, 0, 0, 0, 0, 0, 54, 398
+"e:\CodeProjects\database_homework\backend\coordinator\write_engine.py", "Python", 0, 0, 0, 0, 0, 0, 116, 0, 0, 0, 0, 0, 0, 20, 136
+"e:\CodeProjects\database_homework\backend\requirements.txt", "pip requirements", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 1, 2, 11
+"e:\CodeProjects\database_homework\backend\run_all.py", "Python", 0, 0, 0, 0, 0, 0, 65, 0, 0, 0, 0, 0, 0, 12, 77
+"e:\CodeProjects\database_homework\backend\site_service\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"e:\CodeProjects\database_homework\backend\site_service\main.py", "Python", 0, 0, 0, 0, 0, 0, 244, 0, 0, 0, 0, 0, 181, 21, 446
+"e:\CodeProjects\database_homework\backend\site_service\security.py", "Python", 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 7, 29
+"e:\CodeProjects\database_homework\backend\tests\test_router.py", "Python", 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 6, 25
+"e:\CodeProjects\database_homework\backend\tests\test_site_security.py", "Python", 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 6, 26
+"e:\CodeProjects\database_homework\backend\tests\test_sql_parser.py", "Python", 0, 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 0, 24, 102
+"e:\CodeProjects\database_homework\database\SEED_DATA.md", "Markdown", 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 55
+"e:\CodeProjects\database_homework\database\common\001_extensions.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 6
+"e:\CodeProjects\database_homework\database\coordinator\010_schema.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 204, 0, 0, 0, 0, 3, 24, 231
+"e:\CodeProjects\database_homework\database\coordinator\020_seed.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 8
+"e:\CodeProjects\database_homework\database\coordinator\data\coordinator_data.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 241, 0, 0, 0, 0, 6, 8, 255
+"e:\CodeProjects\database_homework\database\site1\010_schema.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 196, 0, 0, 0, 0, 3, 22, 221
+"e:\CodeProjects\database_homework\database\site1\020_seed.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 8
+"e:\CodeProjects\database_homework\database\site1\data\site1_data.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 3, 5, 128
+"e:\CodeProjects\database_homework\database\site2\010_schema.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 196, 0, 0, 0, 0, 3, 22, 221
+"e:\CodeProjects\database_homework\database\site2\020_seed.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 8
+"e:\CodeProjects\database_homework\database\site2\data\site2_data.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 3, 6, 129
+"e:\CodeProjects\database_homework\database\site3\010_schema.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 196, 0, 0, 0, 0, 3, 22, 221
+"e:\CodeProjects\database_homework\database\site3\020_seed.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 4, 8
+"e:\CodeProjects\database_homework\database\site3\data\site3_data.sql", "MS SQL", 0, 0, 0, 0, 0, 0, 0, 123, 0, 0, 0, 0, 5, 5, 133
+"e:\CodeProjects\database_homework\docker-compose.yml", "YAML", 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 114
+"e:\CodeProjects\database_homework\docs\演示账号.md", "Markdown", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 24
+"e:\CodeProjects\database_homework\docs\用户角色与权限.md", "Markdown", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 26
+"e:\CodeProjects\database_homework\docs\用户逻辑表结构.md", "Markdown", 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47, 275
+"e:\CodeProjects\database_homework\frontend\README.md", "Markdown", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30
+"e:\CodeProjects\database_homework\frontend\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 1, 15
+"e:\CodeProjects\database_homework\frontend\package-lock.json", "JSON", 0, 0, 0, 0, 0, 2645, 0, 0, 0, 0, 0, 0, 0, 1, 2646
+"e:\CodeProjects\database_homework\frontend\package.json", "JSON", 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 1, 34
+"e:\CodeProjects\database_homework\frontend\src\App.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 2, 8
+"e:\CodeProjects\database_homework\frontend\src\api\client.ts", "TypeScript", 0, 0, 0, 0, 117, 0, 0, 0, 0, 0, 0, 0, 0, 28, 145
+"e:\CodeProjects\database_homework\frontend\src\components\NodeCard.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 3, 30
+"e:\CodeProjects\database_homework\frontend\src\components\QueryPlan.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 53, 0, 0, 0, 5, 58
+"e:\CodeProjects\database_homework\frontend\src\components\ResultTable.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 0, 0, 5, 28
+"e:\CodeProjects\database_homework\frontend\src\components\SqlEditor.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 57, 0, 0, 0, 7, 64
+"e:\CodeProjects\database_homework\frontend\src\env.d.ts", "TypeScript", 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 1, 4, 19
+"e:\CodeProjects\database_homework\frontend\src\layouts\AppLayout.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 1, 23
+"e:\CodeProjects\database_homework\frontend\src\layouts\PortalLayout.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 3, 24
+"e:\CodeProjects\database_homework\frontend\src\main.ts", "TypeScript", 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 2, 16
+"e:\CodeProjects\database_homework\frontend\src\router\index.ts", "TypeScript", 0, 0, 0, 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 6, 60
+"e:\CodeProjects\database_homework\frontend\src\stores\auth.ts", "TypeScript", 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 9, 45
+"e:\CodeProjects\database_homework\frontend\src\stores\query.ts", "TypeScript", 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 5, 50
+"e:\CodeProjects\database_homework\frontend\src\styles.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 135, 0, 10, 145
+"e:\CodeProjects\database_homework\frontend\src\types\index.ts", "TypeScript", 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 11, 71
+"e:\CodeProjects\database_homework\frontend\src\views\AdminHomeView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 1, 19
+"e:\CodeProjects\database_homework\frontend\src\views\AdminResourcesView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 2, 52
+"e:\CodeProjects\database_homework\frontend\src\views\BorrowView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 0, 0, 0, 3, 51
+"e:\CodeProjects\database_homework\frontend\src\views\DashboardView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 124, 0, 0, 0, 13, 137
+"e:\CodeProjects\database_homework\frontend\src\views\LoginView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 0, 0, 0, 3, 54
+"e:\CodeProjects\database_homework\frontend\src\views\MapView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 182, 0, 0, 0, 9, 191
+"e:\CodeProjects\database_homework\frontend\src\views\MonitorView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 0, 0, 0, 8, 74
+"e:\CodeProjects\database_homework\frontend\src\views\QueryView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 0, 0, 0, 13, 128
+"e:\CodeProjects\database_homework\frontend\src\views\SchemaView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 3, 35
+"e:\CodeProjects\database_homework\frontend\src\views\portal\PortalBorrowingView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 1, 10
+"e:\CodeProjects\database_homework\frontend\src\views\portal\PortalHomeView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 1, 30
+"e:\CodeProjects\database_homework\frontend\src\views\portal\PortalMapView.vue", "Vue", 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 1, 14
+"e:\CodeProjects\database_homework\frontend\tsconfig.app.json", "JSON", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 1, 21
+"e:\CodeProjects\database_homework\frontend\tsconfig.json", "JSON with Comments", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"e:\CodeProjects\database_homework\frontend\tsconfig.node.json", "JSON", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"e:\CodeProjects\database_homework\frontend\vite.config.ts", "TypeScript", 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 2, 28
+"e:\CodeProjects\database_homework\scripts\import-data.ps1", "PowerShell", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 33
+"e:\CodeProjects\database_homework\scripts\setup-backend.ps1", "PowerShell", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 21
+"e:\CodeProjects\database_homework\scripts\start-backend.ps1", "PowerShell", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11
+"e:\CodeProjects\database_homework\scripts\start-frontend.ps1", "PowerShell", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 13
+"e:\CodeProjects\database_homework\scripts\test-backend.ps1", "PowerShell", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11
+"e:\CodeProjects\database_homework\scripts\verify-data.ps1", "PowerShell", 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 37
+"e:\CodeProjects\database_homework\数据库结构设计-旧版备份.md", "Markdown", 707, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 201, 908
+"e:\CodeProjects\database_homework\数据库结构设计.md", "Markdown", 672, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196, 868
+"Total", "-", 1774, 94, 107, 7, 366, 2707, 2288, 1414, 14, 946, 8, 135, 303, 1223, 11386
